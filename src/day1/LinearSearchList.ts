@@ -3,4 +3,4 @@ export default function linear_search(haystack: number[], needle: number): boole
         if (hay === needle) return true
 
     return false
-}
+} 
