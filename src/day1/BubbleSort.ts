@@ -5,7 +5,7 @@ export default function bubble_sort(arr: number[]): void {
             if (arr[j] <= arr[j + 1]) continue 
          
             const tmp = arr[j]
-            arr[j] = arr[j + 1]
+            arr[j] = arr[j + 1]  
             arr[j + 1] = tmp
         }
     }
